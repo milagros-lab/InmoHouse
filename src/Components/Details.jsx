@@ -80,7 +80,7 @@ const Details = () => {
                 my: 3,
               }}
             >
-              You’ve found a neighborhood you love.
+              Find your place, a multicultural, young and cheerful neighborhood
             </Typography>
 
             <Typography
@@ -90,9 +90,7 @@ const Details = () => {
                 lineHeight: "27px",
               }}
             >
-              When you own a home, you commit to living in one location for a
-              period of time. We are here to ensure that this will be a
-              memorable experience for you.
+              If you want to buy, buy or rent an apartment or house in Madrid, InmoHouse offers you a wide range of brokerage and marketing services of high professionalism. We assure you a successful purchase
             </Typography>
           </Box>
         </CustomBox>

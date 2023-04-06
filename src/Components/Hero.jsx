@@ -1,4 +1,4 @@
-import { Box, Button, styled, Typography } from "@mui/material";
+import { Box, styled, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import Navbar from "./Navbar";
@@ -30,10 +30,17 @@ const Hero = () => {
   }));
 
   return (
-    <Box sx={{ backgroundColor: "#E6F0FF", minHeight: "80vh" }}>
+    <Box sx={{ backgroundColor: "#C4FCEF", minHeight: "80vh" }}>
       <Container>
         <Navbar />
         <CustomBox>
+        <Box sx={{ flex: "1.25" }}>
+            <img
+              src={heroImg}
+              alt="heroImg"
+              style={{ maxWidth: "100%", marginBottom: "2rem" }}
+            />
+          </Box>
           <Box sx={{ flex: "1" }}>
             <Typography
               variant="body2"
@@ -45,17 +52,17 @@ const Hero = () => {
                 mb: 4,
               }}
             >
-              Welcome to Besnik Agency
+              Welcome to InmoHouse Agency
             </Typography>
             <Title variant="h1">
-              Discover a place where you'll love to live.
+              Enjoy a place where you'll love to live.
             </Title>
             <Typography
               variant="body2"
               sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
             >
-              Be the first to get the best real estate deals before they hit the
-              mass market! Hot foreclosure deals with one simple search!
+              Do you want to buy or rent an apartment or house or sell or rent your property in Madrid?
+              Contact with us personal directiv Camilo!!!
             </Typography>
             <CustomButton
               backgroundColor="#0F1B4C"
@@ -65,13 +72,7 @@ const Hero = () => {
             />
           </Box>
 
-          <Box sx={{ flex: "1.25" }}>
-            <img
-              src={heroImg}
-              alt="heroImg"
-              style={{ maxWidth: "100%", marginBottom: "2rem" }}
-            />
-          </Box>
+         
         </CustomBox>
       </Container>
     </Box>

@@ -1,6 +1,5 @@
 import { Box, Container, styled, Typography } from "@mui/material";
 import React from "react";
-import logoImg from "../media/logo.png";
 import starsImg from "../media/Star.png";
 import logosImg from "../media/logos.png";
 
@@ -26,7 +25,6 @@ const Companies = () => {
     <Box sx={{ mt: 10 }}>
       <CustomContainer>
         <CustomBox>
-          <img src={logoImg} alt="logo" style={{ maxWidth: "100%" }} />
           <Typography
             variant="body2"
             sx={{
@@ -36,7 +34,7 @@ const Companies = () => {
               mt: 2,
             }}
           >
-            More than 45,000 trust Besnik
+            More than 45,000 trust InmoHouse
           </Typography>
         </CustomBox>
 

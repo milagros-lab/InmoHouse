@@ -7,7 +7,7 @@ import MiscellaneousServicesIcon from "@mui/icons-material/MiscellaneousServices
 import ListAltIcon from "@mui/icons-material/ListAlt";
 import HomeIcon from "@mui/icons-material/Home";
 import ContactsIcon from "@mui/icons-material/Contacts";
-import logoImg from "../media/logo.png";
+import logoImg from "../media/logo2.png";
 import { Container } from "@mui/system";
 import CustomButton from "./CustomButton";
 import {
@@ -20,7 +20,6 @@ import {
   styled,
 } from "@mui/material";
 import { useState } from "react";
-import { LinkOffTwoTone } from "@mui/icons-material";
 
 export const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState({
@@ -105,7 +104,7 @@ export const Navbar = () => {
     },
   }));
 
-  const NavbarLogo = styled("img")(({ theme }) => ({
+  const NavbarLogo = styled("img")(({ theme }) => ({   
     cursor: "pointer",
     [theme.breakpoints.down("md")]: {
       display: "none",
@@ -122,7 +121,7 @@ export const Navbar = () => {
           gap: "2.5rem",
         }}
       >
-        <Box sx={{ display: "flex", alignItems: "center" }}>
+        <Box sx={{ display: "flex", alignItems: "center"}}>
           <CustomMenuIcon onClick={toggleDrawer("left", true)} />
           <Drawer
             anchor="left"
@@ -131,7 +130,7 @@ export const Navbar = () => {
           >
             {list("left")}
           </Drawer>
-          <NavbarLogo src={logoImg} alt="logo" />
+          <NavbarLogo src={logoImg} alt="logo"/>
         </Box>
 
         <NavbarLinksBox>
