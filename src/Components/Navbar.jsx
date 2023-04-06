@@ -152,7 +152,7 @@ export const Navbar = () => {
       >
         <NavLink variant="body2">Sign Up</NavLink>
         <CustomButton
-          backgroundColor="#0F1B4C"
+          backgroundColor="#0f4b4c"
           color="#fff"
           buttonText="Register"
         />

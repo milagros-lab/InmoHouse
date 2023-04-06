@@ -54,14 +54,14 @@ const Guide = () => {
         style={{
           width: "5%",
           height: "5px",
-          backgroundColor: "#000339",
+          backgroundColor: "#0f4b4c",
           margin: "0 auto",
         }}
       ></div>
 
       <Typography
         variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
+        sx={{ fontSize: "35px", fontWeight: "bold", color: "#0f4b4c", my: 3 }}
       >
         How it works?
       </Typography>
@@ -177,7 +177,7 @@ const Guide = () => {
       </GuidesBox>
 
       <CustomButton
-        backgroundColor="#0F1B4C"
+        backgroundColor="#0f4b4c"
         color="#fff"
         buttonText="See Full Guides"
         guideBtn={true}

@@ -55,7 +55,7 @@ const Details = () => {
   const Divider = styled("div")(({ theme }) => ({
     width: "13%",
     height: "5px",
-    backgroundColor: "#000339",
+    backgroundColor: "#0f4b4c",
     [theme.breakpoints.down("md")]: {
       marginLeft: "auto",
       marginRight: "auto",
@@ -75,7 +75,7 @@ const Details = () => {
             <Typography
               sx={{
                 fontSize: "35px",
-                color: "#000339",
+                color: "#0f4b4c",
                 fontWeight: "700",
                 my: 3,
               }}

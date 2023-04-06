@@ -25,7 +25,7 @@ const Properties = () => {
       <Container>
         <PropertiesTextBox>
           <Typography
-            sx={{ color: "#000339", fontSize: "35px", fontWeight: "bold" }}
+            sx={{ color: "#0f4b4c", fontSize: "35px", fontWeight: "bold" }}
           >
             Featured Properties
           </Typography>

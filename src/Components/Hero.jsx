@@ -21,7 +21,7 @@ const Hero = () => {
 
   const Title = styled(Typography)(({ theme }) => ({
     fontSize: "64px",
-    color: "#000336",
+    color: "#0f4b4c",
     fontWeight: "bold",
     margin: theme.spacing(4, 0, 4, 0),
     [theme.breakpoints.down("sm")]: {
@@ -65,7 +65,7 @@ const Hero = () => {
               
             </Typography>
             <CustomButton
-              backgroundColor="#0F1B4C"
+              backgroundColor="#0f4b4c"
               color="#fff"
               buttonText="More About Us"
               heroBtn={true}

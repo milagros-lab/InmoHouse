@@ -6,7 +6,7 @@ import CustomButton from "./CustomButton";
 
 const GetStarted = () => {
   const CustomContainer = styled(Container)(({ theme }) => ({
-    backgroundColor: "#17275F",
+    backgroundColor: "#0f4b4c",
     height: "416px",
     borderRadius: "15px",
     display: "flex",
@@ -45,8 +45,8 @@ const GetStarted = () => {
           </Typography>
 
           <CustomButton
-            backgroundColor="#fff"
-            color="#17275F"
+            backgroundColor="#C4FCEF"
+            color="#0f4b4c"
             buttonText="Get Started Now"
             getStartedBtn={true}
           />
