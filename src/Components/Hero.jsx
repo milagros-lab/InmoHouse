@@ -62,7 +62,7 @@ const Hero = () => {
               sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
             >
               Do you want to buy or rent an apartment or house or sell or rent your property in Madrid?
-              Contact with us personal directiv Camilo!!!
+              
             </Typography>
             <CustomButton
               backgroundColor="#0F1B4C"
